@@ -45,7 +45,7 @@ global pos1: [0..12] init 10;
 global charSusp: [4..7];
 global roomSusp: [0..3];
 
-// card variables, value means who is currently in possession of the card (.1..n), n means card is not given to a player, -1 means is the initial value before the card is dealt
+// card variables, value means who is currently in possession of the card, n means card is not given to a player, -1 is the initial value before the card is dealt
 // global knowledge
 global cKitchen: [-1..n];		// room 0 (pos = 0)      (card id 0)
 global cLivingRoom: [-1..n];	// room 1 (pos = 2)
